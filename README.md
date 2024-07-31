@@ -12,7 +12,6 @@ Ce projet est une pratique personnelle où j'ai transformé une maquette HTML/CS
 - `index.html` : Le fichier HTML principal.
 - `/css` : Dossier contenant le CSS généré à partir des fichiers SCSS.
 - `/image` : Dossier contenant les images utilisées dans le projet.
-- `.vscode` : Configuration pour l'éditeur Visual Studio Code.
 
 ## Technologies utilisées
 - HTML5
