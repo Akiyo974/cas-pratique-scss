@@ -1,0 +1,369 @@
+@import "general";
+
+/* HERO SECTION */
+.hero-section {
+  background-color: $gray;
+  padding: 96px 0px;
+
+  @media screen and (max-width: 1024px) {
+    padding: 30px 0px;
+  }
+
+  svg {
+    @media screen and (max-width: 1024px) {
+      max-width: 100%;
+    }
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media screen and (max-width: 1024px) {
+      flex-direction: column;
+    }
+  }
+
+  .hero {
+    margin-right: 100px;
+
+    @media screen and (max-width: 1024px) {
+      margin-right: initial;
+    }
+  }
+
+  .btn {
+    margin-top: 32px;
+    display: inline-block;
+  }
+}
+
+/* CUSTOMERS SECTION */
+.customers-section {
+  h2 {
+    text-align: center;
+  }
+
+  .subtitle {
+    text-align: center;
+  }
+}
+
+.customers {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+
+  @media screen and (max-width: 1024px) {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.customers__customer {
+  @media screen and (max-width: 1024px) {
+    width: 80px;
+    margin-bottom: 10px;
+  }
+}
+
+/* MANAGE SECTION */
+
+.manage-section {
+  margin-top: 70px;
+
+  h2 {
+    text-align: center;
+  }
+
+  .subtitle {
+    text-align: center;
+  }
+
+  .informations {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+
+    @media screen and (max-width: 1024px) {
+      flex-direction: column;
+    }
+
+    .information {
+      width: calc(33.33% - 15px);
+      max-width: 300px;
+
+      @media screen and (max-width: 1024px) {
+        width: 100%;
+      }
+
+      &__title {
+        text-align: center;
+        margin-top: 24px;
+        max-width: 200px;
+        margin: auto;
+      }
+
+      &__text {
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        color: $text-color;
+        text-align: center;
+      }
+
+      &__icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+}
+
+/* IMAGE TEXT */
+
+.image-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+
+  @media screen and (max-width: 1024px) {
+    flex-direction: column-reverse;
+  }
+
+  >div {
+    width: calc(50% - 60px);
+
+    @media screen and (max-width: 1024px) {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+
+  svg {
+    max-width: 100%;
+
+    @media screen and (max-width: 1024px) {
+      display: block;
+      margin: auto;
+    }
+  }
+
+  .btn {
+    margin-top: 32px;
+    display: inline-block;
+  }
+}
+
+/* christen */
+
+.christen {
+  margin-top: 80px;
+  background-color: $gray;
+  padding: 32px 0px;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media screen and (max-width: 1024px) {
+      flex-direction: column-reverse;
+    }
+
+    img {
+      margin-right: 70px;
+
+      @media screen and (max-width: 1024px) {
+        display: block;
+        margin: 0 auto;
+      }
+    }
+
+    .author {
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 28px;
+      color: $primary;
+      margin-top: 8px;
+      margin-bottom: 0px;
+    }
+
+    .function {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      color: #89939e;
+      margin-top: 8px;
+    }
+  }
+}
+
+/* NUMBERS -section */
+
+.numbers-section {
+  margin-top: 48px;
+  background-color: $gray;
+  padding: 64px 0px;
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @media screen and (max-width: 1024px) {
+      flex-direction: column;
+    }
+  }
+
+  .numbers {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 540px;
+
+    @media screen and (max-width: 1024px) {
+      margin-top: 30px;
+    }
+  }
+
+  .numbers__number {
+    width: calc(50% - 30px);
+    display: flex;
+    align-items: center;
+  }
+
+  .number__text {
+    margin-left: 16px;
+
+    h3 {
+      margin: 0px;
+    }
+
+    p {
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px;
+      color: $text-color;
+      margin-top: 4px;
+    }
+  }
+}
+
+/* CARING SECTION */
+
+.caring-section {
+  margin-top: 48px;
+  padding-bottom: 140px;
+
+  @media screen and (max-width: 1024px) {
+    padding-bottom: 30px;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  .subtitle {
+    text-align: center;
+  }
+
+  .caring {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 16px;
+
+    @media screen and (max-width: 1024px) {
+      flex-direction: column;
+    }
+  }
+
+  .caring__card {
+    width: calc(33.33% - 24px);
+    position: relative;
+
+    @media screen and (max-width: 1024px) {
+      width: 100%;
+      max-width: 300px;
+      margin-bottom: 150px;
+    }
+  }
+
+  .card__icon {
+    width: 100%;
+    height: 286px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+  }
+
+  .card__body {
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0px 8px 16px 0px rgba(171, 190, 209, 0.4);
+    background-color: $gray;
+    position: absolute;
+    top: 220px;
+    width: calc(100% - 64px);
+    left: 16px;
+    text-align: center;
+
+    p {
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 28px;
+      color: $text-color;
+    }
+
+    a {
+      justify-content: center;
+    }
+  }
+}
+
+/* CTA SECTION */
+
+.cta {
+  background-color: $gray;
+  padding: 32px 0px;
+  margin-top: 94px;
+
+  @media screen and (max-width: 1024px) {
+    margin-top: 30px;
+  }
+
+  h2 {
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 76px;
+    color: #263238;
+    text-align: center;
+    margin-top: 0px;
+
+    @media screen and (max-width: 1024px) {
+      font-size: 40px;
+      line-height: 45px;
+    }
+  }
+
+  .btn {
+    display: block;
+    max-width: max-content;
+    margin: auto;
+    margin-top: 32px;
+  }
+}
